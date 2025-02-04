@@ -1,9 +1,9 @@
-import { Background } from "./components/background";
+import { LandingPage} from "./components/landingPage";
 
 export function App () {
   return (
     <>
-      <Background/>
+      <LandingPage />
     </>
   )
 };

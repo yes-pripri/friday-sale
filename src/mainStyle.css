@@ -1,0 +1,14 @@
+body, p, div, h1, h2, h3, input, button {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+body,  html, #root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgb(186, 186, 77);
+}

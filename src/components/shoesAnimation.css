@@ -1,0 +1,15 @@
+@keyframes moveAndRotate {
+    0% {
+        transform: translateX(0) rotate(-7.3deg);
+      }
+      50% {
+        transform: translateX(-16px) rotate(0.3deg);
+      }
+      100% {
+        transform: translateX(0) rotate(-7.3deg);
+      }
+    }
+    
+    .shoes-animation {
+      animation: moveAndRotate 3s infinite ease-in-out;
+    }
